@@ -40,4 +40,3 @@ elif meta=='c':
     print("자전거")
 else:
     print("뚜벅이")
-

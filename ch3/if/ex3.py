@@ -18,11 +18,12 @@ weather = '맑음' # 맑음, 비, 눈
 # if~elif~else
 # 여러 조건을 순차적으로 검사
 
+# 앞에 조건이 참이면, 다음 조건을 판단하지 않는다
+# 모든 조건이 거짓이면, else 블록을 수행
+
 if weather == '비' :
     print("우산을 가져간다")
 elif weather == '눈':
     print("장화를 신는다")
 else:
     print("우산을 가져가지 않는다")
-
-
