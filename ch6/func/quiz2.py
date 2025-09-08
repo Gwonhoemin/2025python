@@ -69,11 +69,12 @@ func(9)
         # 조건: if
         # 요소의 타입 == str
 def func(lis):
+    i=0
     # 리스트 안에 있는 요소 하나씩 꺼내서 item 변수에 담기
-    sum = 0
     for item in lis:
         if type(item) == str :
-            print(item, ':문자')
+            i += 1
+    print(i)
 
  
 
