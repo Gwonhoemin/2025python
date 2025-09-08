@@ -117,10 +117,9 @@ strings = ['a','bb','ccc','dddd','e']
 new_str = []
 # 문자열 리스트에서 문자의 크기가 2보다 큰 것을 찾고
 # 대문자로 변환해서 new_str에 담기
-for ch in strings:
-    # 문자의 크기가 2보다 큰것 찾기
-    if len(ch) > 2:
-        new_str.append(ch.upper())
+for ch in strings: # for
+    if len(ch) > 2: # if
+        new_str.append(ch.upper()) # 변수:ch.upper()
 print('결과:',new_str) # ['CCC', 'DDDD']
 
 # 위 코드를 '리스트 컴프리헨션'으로 작성
