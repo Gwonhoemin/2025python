@@ -84,7 +84,7 @@ def get_order_price(name):
     return sum
 
 # print(get_order_count('둘리'))
-print(get_order_price('도우너'))
+# print(get_order_price('도우너'))
 
 while True:
      
