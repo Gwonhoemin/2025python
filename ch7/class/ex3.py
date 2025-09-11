@@ -3,11 +3,12 @@ class Animal:
     def bark(self):
         print('동물이 소리를 낸다')
 
-# 부모한테 물려받은 함수를
-# 자식클래스에 맞게 고치기!
+# 부모한테 물려받은 함수가 자식의 비즈니스와 맞지 않으면
+# 함수를 재정의 할 수 있다
+# => 메소드 오버라이드
 class Dog(Animal):
     def bark(self):
-        print('멍멍')
+        print('멍멍!')
 
 # Dog 객체 만들고 모든 기능 실행
 dog = Dog()
